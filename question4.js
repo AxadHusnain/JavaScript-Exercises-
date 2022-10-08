@@ -1,0 +1,1 @@
+console.log(`Rumi once said, "You were born with wings, why prefer to crawl through life?"`);

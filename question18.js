@@ -1,0 +1,14 @@
+const places=["London","Paris","New York","Maldives","Russia"];
+console.log("Original order of places " + places);
+console.log("without modifying sorted " + places.slice().sort());
+console.log("Original order of places " + places);
+console.log("without modifying reversed " + places.slice().reverse());
+console.log("Original order of places " + places);
+places.reverse();
+console.log("palces after being reversed " + places);
+places.reverse();
+console.log("places back to original form " + places);
+places.sort();
+console.log("places is sorted and mutated " + places);
+places.sort().reverse();
+console.log("places is sorted reversed and mutated " + places);
